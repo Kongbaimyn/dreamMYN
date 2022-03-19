@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## A land of dreams
 
 You can use the [editor on GitHub](https://github.com/Kongbaimyn/dreamMYN/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
