@@ -1,0 +1,21 @@
+# -*- 模式： 红宝石 -*-
+# vi： set ft=ruby ：
+
+流浪汉。配置（2） 做|配置|
+  配置。vm.box = "boxcutter/ubuntu1404"
+
+  配置。vm.synced_folder "."，"/家/流浪汉/无畏"
+
+  配置。vm.网络"forwarded_port"，来宾：8000，主机：8000
+  配置。vm.网络"private_network"，键入："dhcp"
+
+  如果流浪汉。has_plugin？（"流浪者"）)
+    配置。缓存。范围 = ：框
+    配置。缓存。synced_folder_opts = {
+      类型： ：nfs，
+      mount_options： ['rw'， 'vers=3'， 'tcp'， 'nolock']
+    }
+  结束
+
+  配置。vm.提供"外壳"，路径："示例/提供.sh"
+结束
